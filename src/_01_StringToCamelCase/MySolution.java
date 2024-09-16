@@ -1,4 +1,4 @@
-package StringToCamelCase;
+package _01_StringToCamelCase;
 
 public class MySolution {
     static String toCamelCase(String s) {

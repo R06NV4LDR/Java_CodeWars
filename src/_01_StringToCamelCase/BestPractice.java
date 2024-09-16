@@ -1,4 +1,4 @@
-package StringToCamelCase;
+package _01_StringToCamelCase;
 
 import java.util.Arrays;
 
