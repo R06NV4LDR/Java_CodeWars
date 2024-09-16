@@ -1,8 +1,5 @@
 package WhoLikesIt;
 
-import static WhoLikesIt.BestPractice.whoLikesIt;
-import static WhoLikesIt.MySolution.whoLikesIt;
-
 public class Main {
     public static void main(String[] args) {
         //My Solution

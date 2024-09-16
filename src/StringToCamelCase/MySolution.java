@@ -1,7 +1,6 @@
 package StringToCamelCase;
 
 public class MySolution {
-
     static String toCamelCase(String s) {
         // Split the string using dash or underscore as the delimiter
         String[] words = s.split("[_-]");
@@ -20,9 +19,6 @@ public class MySolution {
                 builder.append(Character.toUpperCase(word.charAt(0)) + word.substring(1));
             }
         }
-
         return builder.toString();
     }
 }
-
-
