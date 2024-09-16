@@ -16,12 +16,4 @@ public class MySolution {
                 return names[0] + " and " + names[1] + " and " + (names.length - 2) + " likes this";
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(whoLikesIt());
-        System.out.println(whoLikesIt("Peter"));
-        System.out.println(whoLikesIt("Alex", "Jacob"));
-        System.out.println(whoLikesIt("Mirco", "Ronny", "Gina"));
-        System.out.println(whoLikesIt("Simon", "Slavko", "Tobias", "Jean-Claude", "Hugo"));
-    }
 }
