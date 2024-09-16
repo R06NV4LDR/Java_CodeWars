@@ -1,10 +1,9 @@
-package _04_BinaryAddition;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import _04_BinaryAddition.BestPractice;
 
 class BinaryAdditionTest {
 
@@ -18,7 +17,7 @@ class BinaryAdditionTest {
             """)
     @DisplayName("Sample tests")
     void sampleTests(String expected, int a, int b) {
-        assertEquals(expected, BinaryAddition.MySolution.binaryAddition(a, b));
+        assertEquals(expected, BestPractice.binaryAddition(a, b));
     }
 
 
