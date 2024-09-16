@@ -1,4 +1,4 @@
-package BinaryAddition;
+package _04_BinaryAddition;
 
 
 //Implement a function that adds two numbers together and returns their sum in binary.
@@ -10,5 +10,12 @@ package BinaryAddition;
 public class Main {
     public static void main(String[] args) {
 
+        int num = 33;
+        System.out.println(MySolution.addBinary(1, 0));
+        System.out.println(MySolution.addBinary(7,2));
+        System.out.println(BestPractice.binaryAddition(4,5));
+        System.out.println(BestPractice.binaryAddition(2,1));
+
+        MySolution.decimalToBinary(num);
     }
 }
