@@ -7,7 +7,7 @@ import org.junit.Test;
 public class JadenCaseTest {
 
 
-    JadenCase.MySolution jadenCase = new JadenCase.MySolution();
+    _03_JadenCase.MySolution jadenCase = new _03_JadenCase.MySolution();
 
     @Test
     public void test() {

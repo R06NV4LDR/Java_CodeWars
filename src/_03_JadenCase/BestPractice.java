@@ -1,4 +1,4 @@
-package JadenCase;
+package _03_JadenCase;
 
 public class BestPractice {
     public String toJadenCase(String phrase) {

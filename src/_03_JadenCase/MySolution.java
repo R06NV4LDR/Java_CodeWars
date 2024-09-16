@@ -1,4 +1,4 @@
-package JadenCase;
+package _03_JadenCase;
 
 public class MySolution {
     public static String toJadenCase(String phrase) {
