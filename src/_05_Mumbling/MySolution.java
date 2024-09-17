@@ -1,29 +1,31 @@
 package _05_Mumbling;
 
+import static java.io.File.separator;
+
 public class MySolution {
     public static String accum(String s) {
-
-        char[] array = s.toCharArray();
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < array.length; ++i) {
-            if (i < array.length -1 && Character.isSurrogatePair(array[i], array[i+1])) {
-                System.out.println("Double Char found");
-                String substring = new String();
-                substring.();
+        for (int i = 0, offset = 0; offset < s.length(); i++) {
+            int codePoint = s.codePointAt(offset);
+            int charCount = Character.charCount(codePoint);
 
-            }
-            result.append(Character.toUpperCase(array[i]));
+            result.append(new String(Character.toChars(Character.toUpperCase(codePoint))));
 
             for (int j = 0; j < i; ++j) {
-                result.append(Character.toLowerCase(array[i]));
+                result.append(new String(Character.toChars(Character.toLowerCase(codePoint))));
             }
 
-            if (i < array.length - 1) {
+            if (offset + charCount < s.length()) {
                 result.append("-");
             }
+
+            offset += charCount;
         }
 
         return result.toString();
+
     }
+
 }
+
