@@ -30,7 +30,7 @@ public class MySolution {
             }
             ++counter;
 
-            if (offset + charCount < s.length()) {
+            if (offset + charCount < s.length() /*&& !Character.isEmoji(codePoint)*/) {
                 result.append("-");
             }
 
