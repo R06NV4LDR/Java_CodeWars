@@ -10,15 +10,19 @@ package _05_Mumbling;
 public class Main {
     public static void main(String[] args) {
         System.out.println("abcd            : " + MySolution.accum("abcd"));
-        System.out.println("RqaEzty         : " + MySolution.accum("RqaEzty"));
+        System.out.println("RRqaEzty        : " + MySolution.accum("RRqaEzty"));
         System.out.println("cwAt            : " + MySolution.accum("cwAt"));
         System.out.println("Ronny           : " + MySolution.accum("Ronny"));
         System.out.println("Freibadhausen   : " + MySolution.accum("Freibadhausen"));
+        System.out.println("✌️💀😊️a️         : " + MySolution.accum("✌️💀😊️a"));
+        System.out.println("✌️✌️✌️         : " + MySolution.accum("✌️️✌️✌️️"));
         System.out.println();
         System.out.println("abcd            : " + BestPractice.accum("abcd"));
         System.out.println("RqaEzty         : " + BestPractice.accum("RqaEzty"));
         System.out.println("cwAt            : " + BestPractice.accum("cwAt"));
         System.out.println("Ronny           : " + BestPractice.accum("Ronny"));
         System.out.println("Freibadhausen   : " + BestPractice.accum("Freibadhausen"));
+        System.out.println("✌️💀😊️         : " + BestPractice.accum("✌️💀😊️️"));
+        System.out.println("✌️✌️✌️         : " + BestPractice.accum("✌️️✌️✌️️"));
     }
 }
