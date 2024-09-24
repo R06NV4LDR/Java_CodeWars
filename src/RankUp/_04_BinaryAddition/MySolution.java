@@ -1,4 +1,4 @@
-package _04_BinaryAddition;
+package RankUp._04_BinaryAddition;
 
 public class MySolution {
     public static String addBinary(int a, int b) {

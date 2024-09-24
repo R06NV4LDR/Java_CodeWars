@@ -1,4 +1,4 @@
-package _04_BinaryAddition;
+package RankUp._04_BinaryAddition;
 
 public class BestPractice {
     public static String binaryAddition(int a, int b) {

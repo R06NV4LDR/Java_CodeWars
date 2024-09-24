@@ -1,4 +1,4 @@
-package _04_BinaryAddition;
+package RankUp._04_BinaryAddition;
 
 
 //Implement a function that adds two numbers together and returns their sum in binary.

@@ -1,4 +1,4 @@
-package _05_Mumbling;
+package RankUp._05_Mumbling;
 
 import java.util.StringJoiner;
 

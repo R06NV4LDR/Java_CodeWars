@@ -1,4 +1,4 @@
-package _03_JadenCase;
+package RankUp._03_JadenCase;
 
 public class Main {
     public static void main(String[] args) {

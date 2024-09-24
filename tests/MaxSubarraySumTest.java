@@ -1,4 +1,4 @@
-import _06_MaxSubarraySum.MySolution;
+import RankUp._06_MaxSubarraySum.MySolution;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

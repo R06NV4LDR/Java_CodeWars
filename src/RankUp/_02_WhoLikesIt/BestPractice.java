@@ -1,4 +1,4 @@
-package _02_WhoLikesIt;
+package RankUp._02_WhoLikesIt;
 
 public class BestPractice {
     public static String whoLikesIt(String... names) {

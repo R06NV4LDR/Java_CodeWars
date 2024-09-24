@@ -1,4 +1,4 @@
-package _06_MaxSubarraySum;
+package RankUp._06_MaxSubarraySum;
 
        // Description:
 

@@ -1,4 +1,4 @@
-package _01_StringToCamelCase;
+package RankUp._01_StringToCamelCase;
 
 public class MySolution {
     public static String toCamelCase(String s) {

@@ -3,7 +3,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import _04_BinaryAddition.BestPractice;
+import RankUp._04_BinaryAddition.BestPractice;
 
 class BinaryAdditionTest {
 

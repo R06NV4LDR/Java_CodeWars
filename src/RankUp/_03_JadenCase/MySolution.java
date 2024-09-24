@@ -1,4 +1,4 @@
-package _03_JadenCase;
+package RankUp._03_JadenCase;
 
 public class MySolution {
     public static String toJadenCase(String phrase) {

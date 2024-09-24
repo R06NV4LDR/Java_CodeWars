@@ -1,17 +1,17 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+import RankUp._03_JadenCase.MySolution;
 import _03_JadenCase.*;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 
 public class JadenCaseTest {
 
 
-    _03_JadenCase.MySolution jadenCase = new _03_JadenCase.MySolution();
+    MySolution jadenCase = new MySolution();
 
     @Test
     public void test() {

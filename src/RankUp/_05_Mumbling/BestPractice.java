@@ -1,4 +1,4 @@
-package _05_Mumbling;
+package RankUp._05_Mumbling;
 
 public class BestPractice {
     public static String accum(String s) {

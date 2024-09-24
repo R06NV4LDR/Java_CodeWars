@@ -1,9 +1,7 @@
-import _01_StringToCamelCase.MySolution;
+import RankUp._01_StringToCamelCase.MySolution;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.runners.JUnit4;
 
 public class StringToCamelCaseTest {
 

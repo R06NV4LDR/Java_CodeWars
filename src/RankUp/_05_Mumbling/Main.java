@@ -1,4 +1,4 @@
-package _05_Mumbling;
+package RankUp._05_Mumbling;
 
 // This time no story, no theory. The examples below show you how to write function accum:
 // Examples:
@@ -6,8 +6,6 @@ package _05_Mumbling;
 // accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 // accum("cwAt") -> "C-Ww-Aaa-Tttt"
 //The parameter of accum is a string which includes only letters from a..z and A..Z.
-import java.time.format.DateTimeFormatter;
-import java.time.LocalDateTime;
 
 public class Main {
 

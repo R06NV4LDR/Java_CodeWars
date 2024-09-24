@@ -1,4 +1,4 @@
-package _02_WhoLikesIt;
+package RankUp._02_WhoLikesIt;
 
 public class Main {
     public static void main(String[] args) {

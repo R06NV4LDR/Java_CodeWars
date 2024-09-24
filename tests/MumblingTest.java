@@ -1,6 +1,6 @@
 import static org.junit.Assert.*;
 
-import _05_Mumbling.MySolution;
+import RankUp._05_Mumbling.MySolution;
 import org.junit.Test;
 
 

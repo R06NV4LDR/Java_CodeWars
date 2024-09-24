@@ -1,4 +1,4 @@
-package _01_StringToCamelCase;
+package RankUp._01_StringToCamelCase;
 
 import java.util.Arrays;
 

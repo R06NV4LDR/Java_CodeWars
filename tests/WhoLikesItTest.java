@@ -1,5 +1,5 @@
-import _02_WhoLikesIt.BestPractice;
-import _02_WhoLikesIt.MySolution;
+import RankUp._02_WhoLikesIt.BestPractice;
+import RankUp._02_WhoLikesIt.MySolution;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
